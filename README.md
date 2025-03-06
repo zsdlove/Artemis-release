@@ -1,4 +1,5 @@
 # Artemis-release
+```
 pony@ponydeMBP 1.0.0 % java -jar Artemis.jar -h
 Usage: SAST [-hV] [-bc=<build_cmd>] [-d=<dbpath>] [-j=<java_home>]
             [-mr=<mr_enable>] [-od=<out_dbpath>] [-p=<path>] [-r=<rulePath>]
@@ -19,3 +20,4 @@ static code analysis.
   -t, --mr-target-path=<mr_target_path>
                             指定target数据库路径.
   -V, --version             Print version information and exit.
+```
