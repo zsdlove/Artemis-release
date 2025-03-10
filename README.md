@@ -21,3 +21,4 @@ static code analysis.
                             指定target数据库路径.
   -V, --version             Print version information and exit.
 ```
+![image](https://github.com/user-attachments/assets/e2031634-de32-4450-b7cb-4508eea36848)
