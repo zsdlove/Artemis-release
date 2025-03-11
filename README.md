@@ -1,4 +1,4 @@
-# Artemis-release
+# Usages
 ```
 pony@ponydeMBP 1.0.0 % java -jar Artemis.jar -h
 Usage: SAST [-hV] [-bc=<build_cmd>] [-d=<dbpath>] [-j=<java_home>]
@@ -21,5 +21,7 @@ static code analysis.
                             指定target数据库路径.
   -V, --version             Print version information and exit.
 ```
+# For more details
 更多详情，建议访问我的博客：[pOny的技术博客地址](https://zsdlove.github.io/)
+# Contact with me
 ![image](https://github.com/user-attachments/assets/e2031634-de32-4450-b7cb-4508eea36848)
