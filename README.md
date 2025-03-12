@@ -21,6 +21,26 @@ static code analysis.
                             指定target数据库路径.
   -V, --version             Print version information and exit.
 ```
+# Detection capability
+|漏洞名称|规则编号|漏洞等级|
+| ---- | ---- | ---- |
+|sql注入漏洞|dataflow-rule-sqli|高危|
+|命令执行漏洞|dataflow-rule-cmdi|高危|
+|反序列化漏洞|dataflow-rule-deserialize|高危|
+|fastjson反序列化漏洞|dataflow-rule-fastjson-deserialize|高危|
+|文件上传漏洞|dataflow-rule-fileupload|高危|
+|路径枚举漏洞|dataflow-rule-pathmanipulation|高危|
+|ql表达式注入漏洞|dataflow-rule-QlExpress|高危|
+|SpEl表达式注入|dataflow-rule-SpEl|高危|
+|服务端请求伪造|dataflow-rule-ssrf|高危|
+|服务端模版注入漏洞|dataflow-rule-ssti|高危|
+|重定向漏洞|dataflow-rule-redirect|中危|
+|xml外部实体引用漏洞|dataflow-rule-xxe|高危|
+|水平越权检测|ai-overstep-rule1|高危|
+|垂直越权检测|ai-overstep-rule2|高危|
+
+更多检测规则等你补充
+
 # For more details
 更多详情，建议访问我的博客：[pOny的技术博客地址](https://zsdlove.github.io/)
 # Contact with me
